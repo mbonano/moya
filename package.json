@@ -1,7 +1,7 @@
 {
   "name": "moya",
   "version": "0.0.0",
-  "description": "Moya Platform",
+  "description": "A platform for developing lean, componential and highly scalable RESTful Hypermedia APIs",
   "main": "lib/index.js",
   "author": {
     "name": "Mark Bonano"
