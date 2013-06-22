@@ -2,7 +2,7 @@
   "name": "moya-platform",
   "version": "0.0.0",
   "description": "Moya Platform",
-  "main": "server.js",
+  "main": "lib/index.js",
   "dependencies": {
     "restify": "~2.5.1",
     "nconf": "~0.6.7"
