@@ -1,6 +1,6 @@
 {
   "name": "moya",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A platform for developing lean, componential and highly scalable RESTful Hypermedia APIs",
   "main": "lib/index.js",
   "author": {
