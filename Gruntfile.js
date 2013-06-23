@@ -23,33 +23,25 @@ module.exports = function(grunt) {
 
           all: { src: ['test/**/*.js'] }
       },
-      clean: {
-          // clean all compilation directories prior to a build
-          build: ['release'],
-          // clean all tests and extraneous debug files from a release candidate
-          dev: ['release/test','release/Gruntfile.js', 'release/conf/prod.conf.json'],
-          prod: ['release/test','release/Gruntfile.js', 'release/conf/dev.conf.json']
+      jshint: {
+          all: ['lib','test']
       },
-      copy: {
-          release: {
-              files: [
-                  {
-                      expand: true,
-                      src: ['**'],
-                      dest: 'release/'
-                  }
-              ]
-          }
+      watch: {
+          options: {
+              livereload: true
+          },
+          files: ['lib/**','test/**'],
+          tasks: ['test']
       }
   });
 
   // These plugins provide necessary tasks.
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-simple-mocha');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-    grunt.registerTask('test', ['simplemocha']);
+    grunt.registerTask('test', ['simplemocha','jshint']);
     grunt.registerTask('default', ['test']);
 
 };

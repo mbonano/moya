@@ -1,3 +1,8 @@
+## 0.0.5
+
+ - added tests to ensure defaults are upheld
+ - added additional build steps to enable grunt watching and linting
+
 ## 0.0.4
 
  - exposed auth options (current basic auth only)
