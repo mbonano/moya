@@ -1,5 +1,5 @@
-var sinon = require('sinon');
-var expect = require('chai').expect;
+var sinon = require('sinon'),
+    expect = require('chai').expect;
 
 var moya = require('../lib/index.js');
 
