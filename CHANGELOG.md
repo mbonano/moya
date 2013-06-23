@@ -1,3 +1,7 @@
+## 0.0.4
+
+ - exposed auth options (current basic auth only)
+
 ## 0.0.3
 
  - removed all default configurations. There is no need for them as there is too high a degree of variability between
