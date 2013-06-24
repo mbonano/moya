@@ -28,7 +28,7 @@ server.get('/', function(req, res, next) {
 
         _links : {
             self: { href: "/" },
-            patients: { href: "/patients" }
+            orders: { href: "/orders" }
         },
 
         name : "my api entry point"
