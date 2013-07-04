@@ -1,3 +1,7 @@
+## 0.0.6
+
+ - exposed restify
+
 ## 0.0.5
 
  - added tests to ensure defaults are upheld
