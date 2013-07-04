@@ -1,3 +1,7 @@
+## 0.0.7
+
+ - added default response headers and globals
+
 ## 0.0.6
 
  - exposed restify
