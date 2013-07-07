@@ -72,3 +72,9 @@ node index.js --conf=app.conf.json
 ```
 
 You application will now run on port 8090, as specified in the app.conf.json file supplied at the command line
+
+## Client SDK's
+
+Various client sdk's are currently in development.
+
+* [JavaScript](https://github.com/mbonano/moya-javascript-sdk)
