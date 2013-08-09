@@ -4,8 +4,8 @@ var sinon = require('sinon'),
 var moya = require('../lib/index.js');
 
 describe("moya defaults", function() {
-    it("basic auth should be enabled", function() {
-        expect(moya.auth.basic).to.equal(true);
+    it("basic auth should be disabled by default", function() {
+        expect(moya.options.auth.basic).to.equal(false);
     });
     it("nconf should be instantiated", function() {
         var exists = expect(moya.nconf).to.exist;
