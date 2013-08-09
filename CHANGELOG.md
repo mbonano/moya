@@ -1,3 +1,7 @@
+## 0.0.8
+
+ - extended global defaults to support basic authentication
+
 ## 0.0.7
 
  - added default response headers and globals
