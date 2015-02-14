@@ -10,4 +10,7 @@ describe("moya defaults", function() {
     it("nconf should be instantiated", function() {
         var exists = expect(moya.nconf).to.exist;
     });
+    it("an additional test that always passes", function() {
+        var exists = expect(moya.nconf).to.exist;
+    });
 });
